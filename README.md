@@ -2,9 +2,18 @@
 
 Una barra de navegación inferior flotante con iconos interactivos y efectos de transición fluidos al pasar el cursor (hover), construida con HTML5, CSS3 y Font Awesome.
 
+[![Coddy](https://img.shields.io/badge/Coddy-Proyecto_de_Práctica-0066FF?style=for-the-badge)](https://coddy.tech)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![FontAwesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+
+---
+
+## 📝 Sobre este proyecto
+Este código fue creado como un ejercicio de práctica dentro del curso de **Coddy**.
+
+* **Plataforma:** [Coddy.tech](https://coddy.tech)
+* **Objetivo:** Practicar lógica de programación y desarrollo de software.
 
 ---
 
