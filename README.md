@@ -73,6 +73,7 @@ Simplemente abre el archivo index.html en tu navegador preferido o utiliza la ex
 
 Puedes modificar el color principal de la barra o de las animaciones editando el archivo styles.css:
 
+```text
 /* Cambiar el fondo de la barra de navegación */
 .navigation {
     background-color: purple; /* Cambia a tu color preferido */
@@ -84,6 +85,7 @@ Puedes modificar el color principal de la barra o de las animaciones editando el
     background-color: #fff;
     transform: scale(1.2);
 }
+```
 
 ---
 
