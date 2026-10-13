@@ -1,12 +1,22 @@
 /* 
-ETIQUETA UNIVERSAL
+BODY
 
-Apunta a la etiqueta universal:
-1. Establece el margin y el padding a 0.
-2. Establece box-sizing a border-box
+Etiqueta Body objetivo:
+
+1. Establece display a flex, align-items y justify-content a center.
+2. Establece height a 100vh.
+3. Establece el color de fondo a lo que prefieras! (recomendado: rgb(153, 224, 255))
 */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(153,224,255);
 }
