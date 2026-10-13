@@ -1,11 +1,15 @@
 /* 
-BODY
+ESTILO DE LA NAVBAR
 
-Etiqueta Body objetivo:
-
-1. Establece display a flex, align-items y justify-content a center.
-2. Establece height a 100vh.
-3. Establece el color de fondo a lo que prefieras! (recomendado: rgb(153, 224, 255))
+Apunta a la clase "navigation":
+1. Para establecer una posición:
+    a. Establece la posición en absolute.
+    b. Establece el bottom en 32px.
+    c. Establece el border-radius en 24px.
+    d. Establece la posición left en 50%.
+2. Añade el siguiente estilo de transición:
+    transform: translate(-50%, 0);
+3. Establece el background-color a lo que prefieras! (recomendado: purple)
 */
 *{
     margin: 0;
@@ -19,4 +23,13 @@ body{
     justify-content: center;
     height: 100vh;
     background: rgb(153,224,255);
+}
+
+.navigation{
+    position: absolute;
+    bottom: 32px;
+    border-radius: 24px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: purple;
 }
