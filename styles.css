@@ -1,11 +1,16 @@
 /* 
-ESTILO DE LISTAS NO ORDENADAS
+ESTILO DE ELEMENTOS DE LISTA
 
-Eliminemos los puntos de la lista desordenada y alineemos los iconos horizontalmente. 
-Apunta a la lista desordenada de la clase de navegación .navigation ul:
-1. Establece el display a flex.
-2. Establece el justify-content a space-around.
-3. Establece el list-style a none.
+Vamos a añadir estilos para los elementos de lista; usando esto, podrás ajustar los iconos correctamente.
+Apunta a los elementos de la lista de la clase navigation y de la lista desordenada .navigation ul li:
+1. Establece el height, width a 35px y el margin a 1rem.
+2. Establece el padding a 0 1rem.
+3. Establece el color a lo que prefieras! (recomendado: white)
+4. Establece el border-radius a 50%.
+5. Establece display a flex, align-items, y justify-content a center.
+6. Añade el siguiente estilo:
+    cursor: pointer;
+    transition: all 0.2s linear;
 */
 *{
     margin: 0;
@@ -34,4 +39,18 @@ body{
     display: flex;
     justify-content: space-around;
     list-style: none;
+}
+
+.navigation ul li{
+    height: 35px;
+    width: 35px;
+    margin: 1em;
+    padding: 0 1rem;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s linear;
 }
