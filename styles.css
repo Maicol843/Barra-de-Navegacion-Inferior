@@ -1,1 +1,12 @@
-/* Write CSS code here */
+/* 
+ETIQUETA UNIVERSAL
+
+Apunta a la etiqueta universal:
+1. Establece el margin y el padding a 0.
+2. Establece box-sizing a border-box
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
