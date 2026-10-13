@@ -1,15 +1,11 @@
 /* 
-ESTILO DE LA NAVBAR
+ESTILO DE LISTAS NO ORDENADAS
 
-Apunta a la clase "navigation":
-1. Para establecer una posición:
-    a. Establece la posición en absolute.
-    b. Establece el bottom en 32px.
-    c. Establece el border-radius en 24px.
-    d. Establece la posición left en 50%.
-2. Añade el siguiente estilo de transición:
-    transform: translate(-50%, 0);
-3. Establece el background-color a lo que prefieras! (recomendado: purple)
+Eliminemos los puntos de la lista desordenada y alineemos los iconos horizontalmente. 
+Apunta a la lista desordenada de la clase de navegación .navigation ul:
+1. Establece el display a flex.
+2. Establece el justify-content a space-around.
+3. Establece el list-style a none.
 */
 *{
     margin: 0;
@@ -32,4 +28,10 @@ body{
     left: 50%;
     transform: translate(-50%, 0);
     background-color: purple;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
 }
